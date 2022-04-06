@@ -53,11 +53,11 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link className="nav-link active" to="/">Home</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                     <ul className="navbar-nav ml-auto align-items-center">
                         {!loading && (
                             <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
